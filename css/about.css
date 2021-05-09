@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f6f5f5;
+}
+ul 
+{
+  list-style: none;
+  
+}
+a
+{
+  text-decoration: none;
+  background-color: #ffffff;
+}
+nav ul 
+{
+  display: flex;
+  
+  
+}
+nav ul li {
+    background-color: #ffffff;
+}
+h1 {
+    margin-top: 30px;
+}
+
+nav
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  padding: 0px 5%;
+  z-index: 1;
+}
+.active
+{
+  color: #2d2a2a;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.toggle
+{
+  display: none;
+}
+nav ul li a
+{
+  margin: 30px;
+  font-family: myriad pro regular;
+  color: #505050;
+  font-size: 15px;
+  font-weight: 700;
+  
+}
+nav ul li a:hover {
+  color: #8b8b8b;
+	transition: 0.5s;
+}
+
+h1 {
+    text-align: center;
+    margin:5px 0 20px 0;
+    padding-bottom: 0 0 20px 0;
+    background-color: #fff;
+}
+
+.container {
+    margin: auto;
+    width: 60%;
+    /* margin: 50px 20px 20px 20px ; */
+    background:#ffffff;
+    border-radius:20px; 
+    overflow: hidden;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+.logo
+{
+  font-family: RoadTest;
+  color: #000000;
+  font-size: 22px;
+  background-color: #ffffff;
+}
+.container h1 {
+    padding : 20px 10px 0px 10px;
+}
+.container p {
+    padding: 10px 20px 20px 20px ;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 25px;
+    align-items: center;
+    text-align: justify;
+    background-color: #fff;
+}
+.cards {
+    width: 85%;
+    margin: auto;
+    margin-bottom: 60px;
+    margin-top: 50px;
+    
+    
+    
+}
+.left-card {
+    width: 48%;
+    float: left;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px 20px 20px ;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    background-color: #fff;
+}
+.right-card {
+    width: 48%;
+    float: right;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px 20px 20px ;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    background-color: #fff;
+}
